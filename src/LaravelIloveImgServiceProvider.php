@@ -30,10 +30,9 @@ class LaravelIloveImgServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
-        $this->publishes([
-            __DIR__.'/../config/ilovepdf.php' => config_path('ilovepdf.php'),
-        ], 'config');
+        $configPath = __DIR__ . '/../config/iloveimg.php';
+       
+        $this->publishes([$configPath => config_path('iloveimg.php')], 'config');
     }
 
 }
