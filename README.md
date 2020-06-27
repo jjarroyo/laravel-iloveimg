@@ -20,9 +20,8 @@ under "aliases":
 ```
 
 
-And set a env variable `TINIFY_APIKEY` with your TinyPNG API key.
+And set a env variable `ILOVEIMG_APIKEY` with your iloveimg API key.
 
-If you want to directly upload the image to `aws s3`, you need set the env variables of following with your aws s3 credentials.
 
 ```php
 ILOVEIMG_PROJECT_KEY=
