@@ -4,7 +4,7 @@ Tinify API support for Laravel 7+
 ## Install
 
 ``` bash
-$ composer require jjarroyo/tinify-laravel
+$ composer require jjarroyo/laravel-iloveimg
 ```
 
 Add this to your config/app.php, 
