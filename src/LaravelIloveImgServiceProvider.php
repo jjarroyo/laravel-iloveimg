@@ -3,7 +3,7 @@
 namespace JJArroyo\IloveImgLaravel;
 
 use Illuminate\Support\ServiceProvider;
-use JJArroyo\IloveImgLaravel\Facades\Iloveimg;
+use Iloveimg\Iloveimg;
 
 class LaravelIloveImgServiceProvider extends ServiceProvider
 {
