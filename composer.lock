@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d6a7d7c357d670bad3aaf156ac5b3cb4",
+    "packages": [
+        {
+            "name": "ilovepdf/iloveimg-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ilovepdf/iloveimg-php.git",
+                "reference": "3b24dc5fe14f46348eef9944020e7c22c00c6e02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ilovepdf/iloveimg-php/zipball/3b24dc5fe14f46348eef9944020e7c22c00c6e02",
+                "reference": "3b24dc5fe14f46348eef9944020e7c22c00c6e02",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Iloveimg\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "iloveimg",
+                    "email": "info@iloveimg.com"
+                }
+            ],
+            "description": "iLoveIMG Php Api",
+            "homepage": "https://iloveimg.com/",
+            "time": "2019-07-10T14:34:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.2.0",
+        "ext-curl": "*"
+    },
+    "platform-dev": []
+}
