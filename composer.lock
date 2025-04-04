@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6a7d7c357d670bad3aaf156ac5b3cb4",
+    "content-hash": "6a8c9f36915e5d50f3bec1e06f2a67b7",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -723,7 +723,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "ilovepdf/iloveimg-php": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
